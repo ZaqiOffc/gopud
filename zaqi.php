@@ -21,10 +21,10 @@ echo color("green","  ");
 function change(){
         echo color("red", " MAU SET NAMA (y/n) ? ");
         $autonama = trim(fgets(STDIN));
-        if($autonama == 'n' || $autonama == 'N') {
+        if($autonama == 'y' || $autonama == 'Y') {
                 echo color("red"," Masukkan Nama Depan & Belakang : ");
                 $nama = trim(fgets(STDIN));
-        } else if ($autonama == 'y' || $autonama == 'Y') {
+        } else if ($autonama == 'n' || $autonama == 'N') {
                 $nama = nama();
         } else {
                 echo color ('red',' Pilihan Tidak Dikenali :/ ');
