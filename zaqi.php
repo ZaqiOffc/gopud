@@ -77,7 +77,7 @@ function change(){
                         sleep(2);
                         echo "\n";
         }
-        die();
+        goto setpin;
         $code1 = request('/go-promotions/v1/promotions/enrollments');
 
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
@@ -134,9 +134,9 @@ function change(){
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
          echo color("white","╭───────────────── [ Set Pin ] ─────────────────╮")."\n";
-         echo color("white","│               PIN ANDA : 110508               │"),"\n";
+         echo color("white","│               PIN ANDA : 225588               │"),"\n";
          echo color("white","┌───────────────────────────────────────────────╯"),"\n";
-         $data2 = '{"pin":"110508"}';
+         $data2 = '{"pin":"225588"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "└──> Otp set pin: ";
          $otpsetpin = trim(fgets(STDIN));
