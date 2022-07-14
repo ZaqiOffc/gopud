@@ -77,7 +77,7 @@ function change(){
                         sleep(2);
                         echo "\n";
         }
-        goto setpin;
+        die();
         $code1 = request('/go-promotions/v1/promotions/enrollments');
 
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
