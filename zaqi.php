@@ -1,28 +1,16 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[96m_________________   WARNING !!!!!!!!  _________________ \n";
-echo "\e[96m       INI SCRIPT CLAIM VOUCHER GOJEK YAGESYA                \n";
-echo "\e[96m              GUNAKANLAH DENGAN BIJAK                 \n";
-echo "\e[96m          SCRIPT INI TIDAK DI JUAL BELIKAN               \n";
-echo "\e[96m                 FOLLOW IG ADMIN:               \n";
-echo "\e[96m                    ZAQI.ART_                       \n";
-echo "\e[96m             JANGAN LUPA FOLLOW YA         \n";
-echo "\e[96m ********\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m********\n";
-echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[93m            \e[96m BERDOA DULU SEBELUM CLAIM \e[93m \n";
-echo "\e[96m             FORMAT NOMER 628***         \n";
-echo "\e[96m  ==============================================\n";
-echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-sleep(1);
-echo color("green","  ");
+echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
+echo color("yellow","[•]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
+echo color("yellow","[•]              waiting proses.....           \n");
+echo color("yellow","[•] cara menulis nomor pakai 62xxxxxxxxxx \n");
+echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
 function change(){
-        echo color("red", " MAU SET NAMA (y/n) ? ");
+        echo color("yellow", " MAU SET NAMA (y/n) ? ");
         $autonama = trim(fgets(STDIN));
         if($autonama == 'y' || $autonama == 'Y') {
-                echo color("red"," Masukkan Nama Depan & Belakang : ");
+                echo color("yellow"," Masukkan Nama Depan & Belakang : ");
                 $nama = trim(fgets(STDIN));
         } else if ($autonama == 'n' || $autonama == 'N') {
                 $nama = nama();
