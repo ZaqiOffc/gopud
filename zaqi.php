@@ -60,8 +60,8 @@ function change(){
                 sleep(1);
                 echo color("white","│                 [x1] DISKON GO-FOOD 50%!                 │ \n");
                 echo color("white","┌──────────────────── [ - ZAQI GANS - ] ───────────────────╯ \n");
-                for($a=1;$a<=6;$a++){
-                        echo color("green","Voucher Sudah Di Claim");
+                for($a=1;$a<=3;$a++){
+                        echo color("green","Voucher Berhasil Di Claim");
                         sleep(2);
                         echo "\n";
         }
